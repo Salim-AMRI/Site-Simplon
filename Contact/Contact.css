@@ -1,0 +1,215 @@
+/*****************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://www.kuebler.com/images/content/hero/service/z3819_banner_consulting_rgb_20190225.jpg');
+    background-size: cover;
+    background-position-x: -500px;
+    background-position-y: 135px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    margin-top: 30px;
+    margin-left: 110px;
+    color: #ce0033;
+    font-size: 60px;
+}
+
+/*********start navbar styling**********/
+
+.navbar {
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: #ce003c solid;
+}
+
+@media only screen and (max-width:600px) {
+    .navbar {
+        padding: 10px;
+    }
+}
+
+.selected {
+    text-decoration: overline #ce0033;
+  }
+
+/************start info-section styling*************/
+
+.info-section {
+    background-color: rgba(255, 255, 255, 0.858);
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 50px 100px;
+    color: black;
+    border-top: #ce0033 solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Contact {
+    width: 100%;
+    color: black;
+    border-left: solid #ce0033;
+}
+
+.box {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.Contact img {
+    width: 40px;
+    margin-left: 40px;
+    padding-right: 10px;
+}
+
+.Contact a {
+    color: black;
+}
+
+.Contact a:hover {
+    color: rgb(95, 95, 95);
+}
+
+.adresse {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.Map {
+    border: #a8a8a8 solid;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.dis{
+    margin-top: 10px; 
+}
+
+.paragraph {
+    width: max-content;
+    margin-right: 50px;
+}
+
+@media only screen and (max-width:1000px) {
+    .info-section {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .Contact {
+        border: none;
+    }
+    .adresse {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5px;
+    }
+}
+
+
+/*******start footer styling*******/
+
+footer {
+    bottom:0;
+    left:0;
+    position:fixed;
+      width: 100%;
+      height: 2em;
+      overflow:hidden;
+      margin:0 auto;
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+      z-index:999;
+  }
+  footer:hover {
+    -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+    height: 10em;
+  }
+  
+  #container{
+    display: flex;
+    background:#ce0033;
+    margin-top:10px;
+    width:100%;
+    height:100%;
+    position:relative;
+    top:0;
+    left:0;
+    justify-content: space-around;
+  }
+  
+  #button{
+    width:40px;
+    height:40px;
+    border: #Ce0033 12px solid;
+    border-radius:35px;
+    margin:0 auto;
+    position:relative;
+    -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+  }
+  #button:hover{
+    width:40px;
+    height:40px;
+    border: #ce0033 12px solid;
+    -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+    position:relative;
+  }
+  
+  .t1{
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+  }
+  
+  .t2{
+    margin-left: 10px;
+    height: 30px;
+    font-size: small;
+  }
+  
+  #t3{
+    margin-bottom: 5px;
+  }
+  
+  #copy-right{
+    margin-top:60px;
+    margin-right: 40px;
+    color:white;
+  }
